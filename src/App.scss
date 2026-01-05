@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 #root {
+  font-family: poppins, sans-serif;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -30,12 +33,6 @@
     padding: 2rem;
     margin-bottom: 2rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-    &:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    }
 
     &:last-child {
       margin-bottom: 0;
@@ -61,11 +58,6 @@
         border-radius: 10px;
         border-left: 4px solid #ffd700;
         line-height: 1.6;
-        transition: background 0.3s ease;
-
-        &:hover {
-          background: rgba(255, 255, 255, 0.15);
-        }
 
         &:last-child {
           margin-bottom: 0;
