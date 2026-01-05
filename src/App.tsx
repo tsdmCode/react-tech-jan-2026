@@ -45,9 +45,6 @@ function App() {
           </ul>
         </article>
       </section>
-      {/* <Header></Header> */}
-      {/* <Main></Main> */}
-      {/* <Footer></Footer> */}
     </>
   );
 }
