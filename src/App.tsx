@@ -14,15 +14,15 @@ function App() {
           <h2>Fordele:</h2>
           <ul>
             <li>
-              Komponentbaseret arkitektur: React gør det nemt at opdele UI i genanvendelige komponenter, hvilket
+              <b>Komponentbaseret arkitektur:</b> React gør det nemt at opdele UI i genanvendelige komponenter, hvilket
               forbedrer vedligeholdelse og skalerbarhed.
             </li>
             <li>
-              Effektiv DOM-håndtering: Reacts virtuelle DOM minimerer direkte manipulation af browserens DOM, hvilket
-              kan forbedre ydeevnen ved hyppige opdateringer.
+              <b>Effektiv DOM-håndtering:</b> Reacts virtuelle DOM minimerer direkte manipulation af browserens DOM,
+              hvilket kan forbedre ydeevnen ved hyppige opdateringer.
             </li>
             <li>
-              Rigt økosystem: Adgang til et stort udvalg af biblioteker, værktøjer og community-støtte, der kan
+              <b>Rigt økosystem:</b> Adgang til et stort udvalg af biblioteker, værktøjer og community-støtte, der kan
               fremskynde udviklingen.
             </li>
           </ul>
@@ -31,16 +31,16 @@ function App() {
           <h2>Ulemper</h2>
           <ul>
             <li>
-              Læringskurve: Kræver forståelse for JSX, state management og Reacts livscyklus, hvilket kan være en
+              <b>Læringskurve:</b> Kræver forståelse for JSX, state management og Reacts livscyklus, hvilket kan være en
               barriere for nybegyndere.
             </li>
             <li>
-              Yderligere afhængigheder: React er kun et UI-bibliotek, så du skal ofte tilføje ekstra biblioteker (f.eks.
-              til routing eller state management), hvilket kan øge projektets kompleksitet.
+              <b>Yderligere afhængigheder:</b> React er kun et UI-bibliotek, så du skal ofte tilføje ekstra biblioteker
+              (f.eks. til routing eller state management), hvilket kan øge projektets kompleksitet.
             </li>
             <li>
-              Performance overhead: For meget små projekter kan Reacts abstraktion og bundling føles unødvendig og
-              tilføje ekstra loadtid.
+              <b>Performance overhead:</b> For meget små projekter kan Reacts abstraktion og bundling føles unødvendig
+              og tilføje ekstra loadtid.
             </li>
           </ul>
         </article>
